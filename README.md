@@ -143,18 +143,10 @@ Lista di tutti i prodotti per peso, con indicazione del Tir di appartenenza.
 **Scenario:** Avvio del gioco e osservazione dei primi 5 passi senza ostacoli critici.
 
 **Output Atteso:**
-```
-=== PASSO 1 - AUTO EVITA OSTACOLI ===
 
-   [GIALLO] . [GIALLO] . [GIALLO] . [BLU] [O] [GIALLO] . [GIALLO] . 
-   [GIALLO] . [GIALLO] . [GIALLO] . [GIALLO] . [GIALLO] . [GIALLO] . 
-   [GIALLO] . [GIALLO] . [GIALLO] . [GIALLO] . [GIALLO] . [GIALLO] . 
-   [VERDE] . [VERDE] . [VERDE] . [VERDE] . [VERDE] . [VERDE] . 
-   [VERDE] . [VERDE] . [VERDE] . [VERDE] . [VERDE] . [VERDE] . 
-   [GIALLO] . [GIALLO] . [ROSSO] [A] [GIALLO] . [GIALLO] . [GIALLO] . 
+![Menu](auto_1.png)
+![Avvio gioco](auto_2.png)
 
-[Zone Verdi = Sicurezza] | [O] = Ostacoli | [A] = Auto
-```
 
 **Risultato:** ✅ Il gioco si inizializza correttamente con l'auto al centro, griglia colorata e ostacoli che appaiono casualmente.
 
@@ -167,6 +159,8 @@ Lista di tutti i prodotti per peso, con indicazione del Tir di appartenenza.
 
 **Risultato:** ✅ L'algoritmo `ostacoloNellIntorno()` rileva correttamente gli ostacoli nella zona 3x3 e sposta l'auto nella direzione sicura.
 
+![Auto in movimento](auto_3.png)
+
 #### Test 3: Condizioni di Fine Gioco
 **Obiettivo:** Verificare le condizioni di vittoria e sconfitta.
 
@@ -177,6 +171,8 @@ Lista di tutti i prodotti per peso, con indicazione del Tir di appartenenza.
 **Output Atteso:** "*** COLLISIONE! L'auto ha urtato un ostacolo! ***"
 
 **Risultato:** ✅ Entrambe le condizioni di fine gioco funzionano correttamente e il contatore dei passi è accurato.
+
+![Player che perde](auto_4.png)
 
 ---
 

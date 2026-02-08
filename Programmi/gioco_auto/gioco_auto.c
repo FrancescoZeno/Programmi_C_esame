@@ -168,7 +168,12 @@ void eseguiPasso(Gioco *gioco) {
     
     if (controllaCollisione(gioco)) {
         gioco->gameOver = 1;
+        aggiornaGriglia(gioco);
+        stampaGriglia(gioco);
         printf("\n*** COLLISIONE! L'auto ha urtato un ostacolo! ***\n");
+        printf("Premi INVIO per continuare...");
+        getchar(); // Consuma il newline rimasto
+        getchar(); // Aspetta input utente
         return;
     }
     
@@ -206,13 +211,15 @@ void avviaGioco() {
         }
     }
     
+    // Non pulire lo schermo qui per mostrare il messaggio finale
     if (gioco.passo >= MAX_PASSI) {
         printf("\n*** COMPLIMENTI! Hai evitato tutti gli ostacoli! ***\n");
     }
     
     printf("\nPartita conclusa al passo %d\n", gioco.passo);
     printf("Premi INVIO per tornare al menu...");
-    getchar();
+    getchar(); // Consuma il newline rimasto
+    getchar(); // Aspetta input utente
 }
 
 void mostraMenu() {
