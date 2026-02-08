@@ -102,14 +102,11 @@ Conferma di inserimento del Tir con i dati specificati nel catalogo.
 
 ![Menu delle scelte del sistema](corriere_1.png)
 
-**Risultato:** ✅ Il sistema inserisce correttamente il Tir e lo aggiunge al catalogo con tutti i parametri specificati.
-
-#### Test 2: Aggiunta Tir al Sistema
-**Obiettivo:** Verificare l'interfaccia di aggiunta di un nuovo Tir.
-
 ![Aggiunta Tir al catalogo](corriere_2.png)
 
-#### Test 3: Visualizza Tir con Peso Massimo
+**Risultato:** ✅ Il sistema inserisce correttamente il Tir e lo aggiunge al catalogo con tutti i parametri specificati.
+
+#### Test 2: Visualizza Tir con Peso Massimo
 **Obiettivo:** Testare la funzionalità di ricerca del Tir con il carico più elevato.
 
 **Input:**
@@ -123,7 +120,7 @@ Visualizzazione del Tir che trasporta il peso totale maggiore, con dettagli su t
 
 **Risultato:** ✅ Il sistema identifica correttamente il Tir con peso massimo e visualizza tutte le informazioni rilevanti.
 
-#### Test 4: Visualizzazione Prodotti per Peso
+#### Test 3: Visualizzazione Prodotti per Peso
 **Obiettivo:** Verificare l'inserimento prodotti in un Tir e la visualizzazione per peso.
 
 **Input:**
