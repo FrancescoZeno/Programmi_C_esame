@@ -100,11 +100,16 @@ Simulazione di un gioco in tempo reale dove un'auto deve evitare automaticamente
 **Output Atteso:**
 Conferma di inserimento del Tir con i dati specificati nel catalogo.
 
-[corriere_1.png]
+![Menu delle scelte del sistema](corriere_1.png)
 
 **Risultato:** ✅ Il sistema inserisce correttamente il Tir e lo aggiunge al catalogo con tutti i parametri specificati.
 
-#### Test 2: Visualizza Tir con Peso Massimo
+#### Test 2: Aggiunta Tir al Sistema
+**Obiettivo:** Verificare l'interfaccia di aggiunta di un nuovo Tir.
+
+![Aggiunta Tir al catalogo](corriere_2.png)
+
+#### Test 3: Visualizza Tir con Peso Massimo
 **Obiettivo:** Testare la funzionalità di ricerca del Tir con il carico più elevato.
 
 **Input:**
@@ -114,9 +119,11 @@ Conferma di inserimento del Tir con i dati specificati nel catalogo.
 **Output Atteso:**
 Visualizzazione del Tir che trasporta il peso totale maggiore, con dettagli su targa, conducente e peso trasportato.
 
+![Visualizzazione Tir con peso massimo](corriere_3.png)
+
 **Risultato:** ✅ Il sistema identifica correttamente il Tir con peso massimo e visualizza tutte le informazioni rilevanti.
 
-#### Test 3: Aggiunta Prodotti e Visualizzazione per Peso
+#### Test 4: Visualizzazione Prodotti per Peso
 **Obiettivo:** Verificare l'inserimento prodotti in un Tir e la visualizzazione per peso.
 
 **Input:**
@@ -126,6 +133,8 @@ Visualizzazione del Tir che trasporta il peso totale maggiore, con dettagli su t
 
 **Output Atteso:**
 Lista di tutti i prodotti per peso, con indicazione del Tir di appartenenza.
+
+![Visualizzazione prodotti del Tir per peso](corriere_4.png)
 
 **Risultato:** ✅ Il sistema gestisce correttamente l'inserimento prodotti e li visualizza per peso come richiesto.
 
